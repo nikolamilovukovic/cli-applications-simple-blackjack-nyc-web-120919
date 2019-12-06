@@ -48,14 +48,21 @@ def hit?(card_total)
     return card_total
   else
     invalid_command
+<<<<<<< HEAD
     prompt_user
     get_user_input
+=======
+>>>>>>> 36c73c6b204a81a2d1518640731b34ae3cafc776
     end
   end 
   # code hit? here
 
 def invalid_command
+<<<<<<< HEAD
   puts "Please enter a valid command"
+=======
+  puts "Invalid Command!"
+>>>>>>> 36c73c6b204a81a2d1518640731b34ae3cafc776
   # code invalid_command here
 end
 
